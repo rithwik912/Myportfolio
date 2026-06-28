@@ -4,8 +4,15 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
+    margin: 0;
+    padding: 0;
     background-color: black;
-    background-image: url(BackgroupImageMyportfolio.jpg);
+    background-image: url(MyportfolioImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
 }
 .navbar{
     background-color: aqua;
@@ -31,4 +38,9 @@ body{
     text-align: center;
     font-size: 40px;
     color: white;
+}
+.page-1{
+    padding: 50px;
+    color: whitesmoke;
+    
 }

@@ -4,14 +4,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    background-image: url(MyportfolioImage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     height: 100vh;
 }
 .navbar{
@@ -40,7 +32,41 @@ body{
     color: white;
 }
 .page-1{
-    padding: 50px;
-    color: whitesmoke;
-    
+    margin: 10px;
+    padding: 0;
+    background-image: url(MyportfolioImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 100px;
+    color: rgb(253, 252, 252);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 65vh;
+}
+.page-2{
+    margin: 10px;
+    background-image: url(BackgroupImageMyportfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    color:beige;
+    padding: 30vh;
+    text-align: center;
+    height: 35vh;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.page-3{
+    margin: 10px;
+    text-align: center;
+    color: rgb(13, 13, 14);
+    background-color: blanchedalmond;
+    height: 80vh;
+    border: 3px solid rgb(241, 237, 237);
+    border-radius: 30px;
+    padding-top: 100px;
+    padding-inline: 100px;
 }
